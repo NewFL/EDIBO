@@ -6,11 +6,10 @@ In Linux Ubuntu Terminal
 - Terminal (hot-keys)
 - Shell (basics)
 - Git (basics)
+- ASCII table
 
-#### Test
-Teksts1
-Teksts2  
-Teksts3
+#### ASCII table
+[ASCII table] (http://www.ecowin.org/ascii.htm)
 
 #### Terminal (hot-keys)
 Ctrl+alt+T - open new Terminal log  
