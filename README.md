@@ -9,7 +9,7 @@ In Linux Ubuntu Terminal
 - ASCII table
 
 #### ASCII table
-[ASCII table] (http://www.ecowin.org/ascii.htm)
+[ASCII table](http://www.ecowin.org/ascii.htm)
 
 #### Terminal (hot-keys)
 Ctrl+alt+T - open new Terminal log  
