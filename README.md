@@ -28,11 +28,12 @@ To see last used command press ↓ arrow on the keyboard
 **historu** - shows all commands used  
 **whoami** - shows user  
 **who** - shows who and when logged in from local device  
-**PS="$"**  - Promt string name change  
+**PS="$"**  - Promt string name change 
+**a=11** - add variable a with value 11  
 **echo**  - is used to display line of text/string (on Desctop) that are passed as an argument . This is a built in command that is mostly used in shell scripts and batch files to output status text to the screen or a file. (https://www.geeksforgeeks.org/echo-command-in-linux-with-examples/)  
 To make math calculation use **((A +,-,*,/,% B))** % - will show surplus    
 to open other file type user@epk428-3:~$ **firefox &** & - is used to remain working in terminal, while firefow will open in background  
-**pwd**- (print working directory) writes the full pathname of the current working directory to the standard output.  
+**pwd**- (print working directory) writes the full pathname of the current working directory to the standard output files marked with blue collor represent files/directory   
 **man** - to see command manual ex. *man ls*  
 **ls** - Linux shell command that lists directory contents of files and directories (https://www.rapidtables.com/code/linux/ls.html)  
 **la** - list all, shows hidden files  
@@ -47,9 +48,12 @@ To reflect on the terminal screen what is inside of the a.txt file, type **cat, 
 To add more rows **echo Hello World! >>a.txt**  
 **cp a.txt b.txt** - copy a.txt to b.txt  
 
+#### Git (basics)
+Git is an open-source version control system that was started by Linus Torvalds—the same person who created Linux.  
+GitHub used to save created codes and with a system help track it progress and share with other github users. 
 
-
-
+A repository is a location where all the files for a particular project are stored.  
+README.md -(md - markup document) this created file  
 
 
 
