@@ -56,7 +56,7 @@ To add more rows **echo Hello World! >>a.txt**
 **nano "README.md"** - to modify text  
 **history > history_20200807a.txt** - save all history in txt file (ls -lt command used to make sure .txt has been created)  
 (Actions to paste creadet files to github ->  
-1) git config --global user.email fjodor.la@gmail.com  
+1) git config --global user.email "my email"   
 2) git add . - to compile all changed files  
 3) git commit -m "20200807_13_30_pirmais_upload_no_cli"  
 4) git push origin master)  
