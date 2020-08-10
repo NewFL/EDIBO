@@ -1,0 +1,131 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  PS1="$ "
+    4* 
+    5  ps
+    6  ps a
+    7  kill 3757
+    8  ps a
+    9  man date
+   10  ps a
+   11  ps
+   12  ps a
+   13  man date
+   14  ps
+   15  ps a
+   16  ps axu
+   17  echo $HOME
+   18  ECHO `pwd`
+   19  echo `pwd`
+   20  printenv
+   21  printenv |less
+   22  pwd
+   23  cd home
+   24  cd /
+   25  pwd
+   26  cd echo `$HOME`
+   27  cd `echo` $HOME
+   28  PWD
+   29  pwd
+   30  cd -
+   31  cd $(echo $HOME)
+   32  PWD
+   33  pwd
+   34  printenv |less
+   35  printenv | less
+   36  for i in a b c; do $i; done
+   37  for i in a b c; do echo $i; done
+   38  for i in a b c; do echo i: $i; done
+   39  for i in a b c z ; do echo i: $i; done
+   40  for k in a b c z ; do echo $k; done
+   41  for 3 in a b c z ; do echo $3; done
+   42* for aa in a b c z ; do echo $a; done
+   43  seq 1 10
+   44  N="11 22 77 45"
+   45  for i in N; do echo $i; done
+   46  for i in $N; do echo $i; done
+   47  (($N*5))
+   48  for i in $N; do echo(($i*5)); done
+   49  for i in $N; do echo$((i*5)); done
+   50  for i in $N; do echo $((i*5)); done
+   51  seq 1 10
+   52  for i in `seq 1 5`; do echo $i; done
+   53  for i in $(seq 1 5); do echo $i; done
+   54  for i in $(seq 1 5); do echo $(i^2); done
+   55  for i in $(seq 1 5); do echo $((i^2)); done
+   56  for i in $(seq 1 5);for k in $(seq 1 5); do echo $i; do echo $((k^2)); done; done
+   57  for i in $(seq 1 5); for k in $(seq 1 5); do echo $i; do echo $((k^2)); done; done
+   58  for i in $(seq 1 5); do echo $((i^2)); done
+   59  for i in $(seq 1 5); do echo $i; done
+   60  for i in $(seq 1 5); do echo $((i*i)); done
+   61  for i in $(seq 1 5); do echo $i  $((i*i)); done
+   62  for i in $(seq 1 5); do echo" $i    $((i*i))"; done
+   63  for i in $(seq 1 5); do echo "$i   $((i*i))"; done
+   64  for i in $(seq 1 5); do echo "$i   $((i^2))"; done
+   65  for i in $(seq 1 5); do echo "$i              $((i*i))"; done
+   66  for i in $(seq 1 5); do echo "$i   $((i*i))$"; done
+   67  for i in $(seq 1 10); do echo "$i   $((i*i))"; done
+   68  echo -e "a/tb"
+   69  echo -e "a\tb"
+   70  for i in $(seq 1 10); do echo "$i\tb $((i*i))"; done
+   71  for i in $(seq 1 10); do echo "$i\tb$((i*i))"; done
+   72  for i in $(seq 1 10); do echo "$i $((i*i))"; done
+   73  echo -e "a            \tb"
+   74  echo -e "a\t\t\tb"
+   75  echo -e "|a|\t|b|"
+   76  for i in $(seq 1 10); do echo -e"$i \t $((i*i))"; done
+   77  for i in $(seq 1 10); do echo -e "$i \t $((i*i))"; done
+   78  for i in $(seq 1 10); do echo -e "$i \t $((i*i))"; done > a.dat
+   79  cat
+   80  cat a.dat
+   81  for i in $(seq 1 100); do echo -e "$i \t $((i*i))"; done > a.dat
+   82  cat a.dat
+   83  for i in $(seq 1 100); do echo -e "$i \t $((i*i))"; done > a.dat; tail a.dat
+   84  for i in $(seq 1 1001); do echo -e "$i \t $((i*i))"; done > a.dat; tail a.dat
+   85  time for i in $(seq 1 1001); do echo -e "$i \t $((i*i))"; done > a.dat; tail a.dat
+   86  ls
+   87  ls -lt
+   88  ls -l
+   89  ls -l a.dat
+   90  ls -l | grep a.dat
+   91  chmod 000 a.dat
+   92  ls -l | grep a.dat
+   93  head -2 a.dat
+   94  chmod 666 a.dat
+   95  ls -l | grep a.dat
+   96  head -2 a.dat
+   97  tail -n 2 a.dat
+   98  for i in $( ls ); do echo $i; done
+   99  for i in $( ls ); do echo $i; done > b.dat
+  100  for i in $( ls ); do echo $i; done > b.dat; cat b.dat
+  101  for i in $( ls -l); do echo $i; done > b.dat; cat b.dat
+  102  for i in $( ls ); do echo $i; done > b.dat; cat b.dat
+  103  ls -l | grep b.dat
+  104  ls -l | grep *.dat
+  105  ls -l | grep .dat
+  106  ls -l | egrep aug
+  107  ls -l | grep aug
+  108  head -3 a.dat
+  109  head -3 a.dat > c.dat
+  110  ;s
+  111  ls
+  112  ls -l c.dat
+  113  for i in $(seq 1 4 ); do echo "$i $((i*i))"; done > d.dat
+  114  ls -l d.dat
+  115  for i in $(seq 1 2); do echo "$i $((i*i))"; done > d.dat
+  116  ls -l d.dat
+  117  cat d.dat
+  118  hexdump d.dat
+  119  for i in 1; do echo "$i $((i*i))"; done | hexdump
+  120  for i in 1; do echo "$i $((i*i))"; done
+  121  echo 1 | hexdump
+  122  echo 1
+  123  echo 2 | hexdumb
+  124  echo 2 | hexdump
+  125  echo 3 | hexdump
+  126  echo 9 | hexdump
+  127  echo 10 | hexdump
+  128  echo a | hexdump
+  129  echo A | hexdump
+  130  echo Z | hexdump
+  131  history > h.dat
