@@ -91,7 +91,7 @@ To add more rows **echo Hello World! >>a.txt**
  3  9  and so on..
  to ad more space between columns - >..; do echo "$i      $((i*i)).. or use \t - means tab, which will aswell align all results -> ..; do echo -e "$i \t$((i*i))..
  after each **;** next command can be adde -> ..
-
+for i in $(seq 1 1001); do echo -e "$i \t $((i*i))"; done > a.dat; tail a.dat  
 
 #### Git (basics)
 Git is an open-source version control system that was started by Linus Torvalds—the same person who created Linux.  
