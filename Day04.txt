@@ -1,0 +1,11 @@
+Programmesanas "paniemieni" vai svarigakas konstrukcijas:
+1.a. mainigie - tiek lietoti identifikatori (a, b, ab, a_b drikst), ("a b" - nedrikst)
+1.b. konstantes - "-
+2. operacijas (pieskirt mainigo vertibu) =,+, -,*, /, %, ...
+(parasti operacija notiek ar diviem operantiem)
+3.a. nosacijuma operators - if (var but else,elif ..)
+koda ispildes sazarosanai
+3.b. cikla operators - for, while, do.. while
+koda dalas izpildisanas atkartosanai
+(ekvivalents - daudzas manuali blakus sarakstitas lidzigas rindas)
+4. funkcija - ar/bez argumentiem un ar/bez atgriezamiem lielumiem

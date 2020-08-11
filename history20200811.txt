@@ -1,0 +1,146 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  cd SHELL/
+    4  pwd
+    5  nano test.sh
+    6  ls -lt
+    7  chmod 744 test.sh 
+    8  ls -lt
+    9  ./test.sh 
+   10  nano test_variables_1.sh
+   11  ls -lt
+   12  chmod 744 test_variables_1.sh 
+   13  ls -lt
+   14  ./test_variables_1.sh 
+   15  nano test_variables_1.sh 
+   16  ls -lt
+   17  ./test_variables_1.sh 
+   18  nano test_variables_1.sh 
+   19  ./test_variables_1.sh 
+   20  nano test_variables_1.sh 
+   21  ./test_variables_1.sh 
+   22  nano test_variables_1.sh 
+   23  ./test_variables_1.sh 
+   24  nano test_variables_1.sh 
+   25  ./test_variables_1.sh 
+   26  nano test_variables_1.sh 
+   27  ./test_variables_1.sh 
+   28  nano test_variables_1.sh 
+   29  ./test_variables_1.sh 
+   30  nano test_variables_1.sh 
+   31  ./test_variables_1.sh 
+   32  nano test_specvariables_1.sh
+   33  ./test_specvariables_1.sh 
+   34  ls -lt
+   35  chmod 744 test_specvariables_1.sh
+   36  ls -lt
+   37  ./test_specvariables_1.sh 
+   38  nano test_specvariables_1.sh 
+   39  ./test_specvariables_1.sh 
+   40  nano test_specvariables_1.sh 
+   41  ./test_specvariables_1.sh 
+   42  ./test_specvariables_1.sh a b
+   43  ./test_specvariables_1.sh Zara Ali
+   44  echo $0
+   45  ps aux
+   46  $$
+   47  nano test.sh
+   48  ./test.sh
+   49  ps -aux | grep 3703
+   50  $!
+   51  ./test.sh &
+   52  $!
+   53  ps -aux | grep 3714
+   54  nano test_masivi_1.sh
+   55  ls -lt
+   56  chmod 744 test_masivi_1.sh 
+   57  ls -lt
+   58  ./test_masivi_1.sh 
+   59  nano test_masivi_1.sh
+   60  ./test_masivi_1.sh 
+   61  nano test_masivi_1.sh
+   62  ./test_masivi_1.sh 
+   63  nano test_masivi_1.sh
+   64  nano test_nosacijumu_operators_1.sh
+   65  chmod 744 test_nosacijumu_operators_1.sh 
+   66  ls -lt
+   67  ./test_nosacijumu_operators_1.sh 
+   68  nano test_nosacijumu_operators_1.sh
+   69  ./test_nosacijumu_operators_1.sh 
+   70  nano test_nosacijumu_operators_1.sh
+   71  ./test_nosacijumu_operators_1.sh 
+   72  nano test_nosacijumu_operators_1.sh
+   73  ./test_nosacijumu_operators_1.sh 
+   74  mv test_nosacijumu_operators_1.sh test_darbs_ar_operacijam-1.sh
+   75  ls *.sh
+   76  nano test_darbs_ar_operacijam-1.sh 
+   77  nano test_darbs_ar_operacijam-2.sh 
+   78  chmod 744 test_darbs_ar_operacijam-2.sh 
+   79  ./test_darbs_ar_operacijam-2.sh
+   80  nano test_darbs_ar_operacijam-3.sh 
+   81  chmod 744 test_darbs_ar_operacijam-3.sh
+   82  ./test_darbs_ar_operacijam-3.sh
+   83  nano test_darbs_ar_operacijam-3.sh 
+   84  nano test_darbs_ar_operacijam-4.sh 
+   85  chmod 744 test_darbs_ar_operacijam-4.sh
+   86  ./test_darbs_ar_operacijam-4.sh
+   87  nano test_darbs_ar_operacijam-4.sh 
+   88  nano test_darbs_ar_nosacijumu operatoru_1.sh
+   89  nano test_darbs_ar_nosacijumu_operatoru_1.sh
+   90  chmod 744 test_darbs_ar_nosacijumu_operatoru_1.sh 
+   91  ./test_darbs_ar_nosacijumu_operatoru_1.sh 
+   92  nano test_darbs_ar_nosacijumu_operatoru_2.sh
+   93  chmod 744 test_darbs_ar_nosacijumu_operatoru_2.sh 
+   94  ./test_darbs_ar_nosacijumu_operatoru_2.sh 
+   95  nano test_darbs_ar_cikliem_1.sh
+   96  chmod 744 test_darbs_ar_cikliem_1.sh 
+   97  ./test_darbs_ar_cikliem_1.sh 
+   98  nano test_darbs_ar_cikliem_2.sh
+   99  chmod 744 test_darbs_ar_cikliem_2.sh 
+  100  ./test_darbs_ar_cikliem_2.sh 
+  101  nano test_darbs_ar_cikliem_3.sh
+  102  chmod 744 test_darbs_ar_cikliem_3.sh 
+  103  ./test_darbs_ar_cikliem_3.sh 
+  104  nano test_darbs_ar_cikliem_4.sh
+  105  chmod 744 test_darbs_ar_cikliem_4.sh 
+  106  ./test_darbs_ar_cikliem_4.sh 
+  107  nano test_dec_to_bin_1.sh
+  108*  
+  109  ./test_dec_to_bin_1.sh 
+  110  nano test_dec_to_bin_1.sh
+  111  ./test_dec_to_bin_1.sh 
+  112  nano test_dec_to_bin_1.sh
+  113  echo ((123/2))
+  114  echo $((123/2))
+  115  echo $((123/2)); $((123%2))
+  116  nano test_dec_to_bin_1.sh
+  117  ls -lt
+  118  ./test_dec_to_bin_1.sh 
+  119  123
+  120  ./test_dec_to_bin_1.sh 123
+  121  nano test_dec_to_bin_1.sh
+  122  ./test_dec_to_bin_1.sh 123
+  123  nano test_dec_to_bin_1.sh
+  124  ./test_dec_to_bin_1.sh 123
+  125  nano test_dec_to_bin_1.sh
+  126  ./test_dec_to_bin_1.sh 123
+  127  nano test_dec_to_bin_1.sh
+  128  ./test_dec_to_bin_1.sh 123
+  129  nano test_dec_to_bin_1.sh
+  130  ./test_dec_to_bin_1.sh 123
+  131  nano test_dec_to_bin_1.sh
+  132  ./test_dec_to_bin_1.sh 123
+  133  nano test_dec_to_bin_1.sh
+  134  ./test_dec_to_bin_1.sh 123
+  135  nano test_dec_to_bin_1.sh
+  136  ./test_dec_to_bin_1.sh 123
+  137  nano test_dec_to_bin_1.sh
+  138  ./test_dec_to_bin_1.sh 123
+  139  nano test_dec_to_bin_1.sh
+  140  ./test_dec_to_bin_1.sh 123
+  141  nano test_dec_to_bin_1.sh
+  142  ./test_dec_to_bin_1.sh 123
+  143  nano test_dec_to_bin_1.sh
+  144  ./test_dec_to_bin_1.sh 123
+  145  history
+  146  history > history20200811.txt
