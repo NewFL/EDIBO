@@ -1,0 +1,27 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  pwd
+    4  git clone https://github.com/NewFL/FIbonacciNumbers
+    5  ls
+    6  cd FIbonacciNumbers/
+    7  ls
+    8  pwd
+    9  ls
+   10  ./test_dec_to_bin_1.sh 
+   11  nano test_dec_to_bin_1.sh 
+   12  mv home/user/FIbonacciNumbers test_dec_to_bin_1.sh /home/user/EDIBO/
+   13  pwd
+   14  ls
+   15  ls -lt
+   16  echo $((30%2))
+   17  pwd
+   18  cd ..
+   19  ls
+   20  cd EDIBO/
+   21  mkdir Python
+   22  cd Python/
+   23  pwd
+   24  nano README.md
+   25  cd ..
+   26  history
+   27  history > history_20200812b.txt
