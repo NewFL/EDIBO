@@ -1,0 +1,71 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  pwd
+    4  python
+    5  ipython
+    6  nano first_python_script.py
+    7  ls -lt
+    8  python first_python_script.py 
+    9  nano first_python_script.py 
+   10  python first_python_script.py 
+   11  cp first_python_script.py second_python_script_like_executable.py
+   12  ls -lt
+   13  whereis python
+   14  nano second_python_script_like_executable.py 
+   15  chmod 744 second_python_script_like_executable.py 
+   16  ./second_python_script_like_executable.py 
+   17  nano second_python_script_like_executable.py 
+   18  ./second_python_script_like_executable.py 
+   19  idle &
+   20  ls -lt
+   21  cd ..
+   22  pwd
+   23  history > history_20200812a.txt
+   24  exit
+   25  ipython
+   26  nano 01.py
+   27  chmod 744 01.py 
+   28  cat 01.py 
+   29  ./01.py 
+   30  nano 01.py 
+   31  ./01.py 
+   32  ls -lt
+   33  time ./01.py
+   34  nano 01.py 
+   35  time ./01.py
+   36  nano 01.py 
+   37  time ./01.py
+   38  time ./01.py; cat 01.py 
+   39  ipithon
+   40  ipython
+   41  time ./01.py
+   42  nano 01.py 
+   43  ./01.py
+   44  ./01.py > 01.dat
+   45  ls -lt
+   46  nano 01.py 
+   47  ./01.py > 01.dat
+   48  ls -lt
+   49  ls -lh
+   50  nano 01.py 
+   51  ./01.py > 01_2.dat
+   52  ls -lh 01_2.dat 
+   53  nano 01.py 
+   54  ./01.py > 01_4.dat
+   55  ls -lh 01_4.dat 
+   56  nano 01.py 
+   57  ./01.py
+   58  nano 01.py 
+   59  ./01.py
+   60  nano 01.py 
+   61  ./01.py
+   62  nano 01.py 
+   63  ./01.py
+   64  nano 01.py 
+   65  ./01.py
+   66  nano 01.py 
+   67  ./01.py
+   68  nano 01.py 
+   69  ipython
+   70  history
+   71  history > history20200812.txt

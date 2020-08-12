@@ -1,0 +1,110 @@
+ 2/1: vars()
+ 2/2: a = 10
+ 2/3: a
+ 2/4: type(a)
+ 2/5: dir(a)
+ 2/6: a.real
+ 2/7: print(a.__doc__)
+ 3/1: pwd
+ 3/2: clear
+ 3/3: g
+ 3/4: ls
+ 3/5: cd ..
+ 3/6: cd Python/
+ 4/1: pwd
+ 4/2: ls
+ 4/3: ls -l
+ 4/4: ls
+ 4/5: cat second_python_script_like_executable.py
+ 4/6: less second_python_script_like_executable.py
+ 4/7: less
+ 4/8: less second_python_script_like_executable.py
+ 4/9: a = 11
+4/10: b = 5
+4/11: a+b
+4/12: a*b
+4/13: a/b
+ 5/1: 2**5
+ 5/2: a
+ 5/3: a = 5
+ 5/4: b = 11
+ 5/5: a/b
+ 6/1: a = 5
+ 6/2: b = 11
+ 6/3: a*b
+ 6/4: a/b
+ 6/5: a:b
+ 6/6: 5/11
+ 6/7: 20%6
+ 6/8: 20/6
+ 5/6: 20/5
+ 5/7: 20/6
+ 5/8: 20//6
+ 5/9: 2**10
+5/10: 2**100
+5/11: 2**1000
+5/12: 2*100000000
+5/13: time 2**10000
+ 6/9: time 2**2
+6/10: time 2**10000
+6/11: 2**10
+6/12: 2**11
+6/13: 2**12
+6/14: 2**20
+6/15: 2*2221
+6/16: 2**21
+6/17: pwd
+6/18: nano 01.py
+ 7/1: a = 100
+ 7/2: a
+ 7/3: print(a)
+ 7/4: nano 01.py
+   1: if (11 == 11): print("YES")
+   2: if (11 == 12): print("YES")
+   3:
+if (11 == 12):
+    print("Vienadi")
+   4:
+if (11 == 12):
+    print("Vienadi")
+    else print("Nav vienadi")
+   5:
+if (11 == 12):
+    print("Vienadi")
+    elif print("Nav vienadi")
+   6:
+if (11 == 12):
+    print("Vienadi")
+    elif: print("Nevienadi")
+   7:
+if (11 == 12):
+    print("Vienadi")
+    elif:
+   8:
+if (11 == 12):
+    print("Vienadi")
+    elif:
+   9:
+if (11 == 12):
+    print("Vienadi")
+    elif:
+  10:
+if (11 == 12):
+    print("Vienadi")
+    else:
+  11:
+if (11 == 12):
+    print("Vienadi")
+    else:
+    print ("Nevienads")
+  12:
+if (11 == 12):
+    print("Vienadi")
+else:
+    print ("Nevienads")
+  13:
+if (11 == 12):
+    print("Vienadi")
+else:
+    print ("Nevienadi")
+  14: %history -g -f myhistory.dat

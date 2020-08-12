@@ -1,0 +1,283 @@
+ 2/1: vars()
+ 2/2: a = 10
+ 2/3: a
+ 2/4: type(a)
+ 2/5: dir(a)
+ 2/6: a.real
+ 2/7: print(a.__doc__)
+ 3/1: pwd
+ 3/2: clear
+ 3/3: g
+ 3/4: ls
+ 3/5: cd ..
+ 3/6: cd Python/
+ 4/1: pwd
+ 4/2: ls
+ 4/3: ls -l
+ 4/4: ls
+ 4/5: cat second_python_script_like_executable.py
+ 4/6: less second_python_script_like_executable.py
+ 4/7: less
+ 4/8: less second_python_script_like_executable.py
+ 4/9: a = 11
+4/10: b = 5
+4/11: a+b
+4/12: a*b
+4/13: a/b
+ 5/1: 2**5
+ 5/2: a
+ 5/3: a = 5
+ 5/4: b = 11
+ 5/5: a/b
+ 6/1: a = 5
+ 6/2: b = 11
+ 6/3: a*b
+ 6/4: a/b
+ 6/5: a:b
+ 6/6: 5/11
+ 6/7: 20%6
+ 6/8: 20/6
+ 5/6: 20/5
+ 5/7: 20/6
+ 5/8: 20//6
+ 5/9: 2**10
+5/10: 2**100
+5/11: 2**1000
+5/12: 2*100000000
+5/13: time 2**10000
+ 6/9: time 2**2
+6/10: time 2**10000
+6/11: 2**10
+6/12: 2**11
+6/13: 2**12
+6/14: 2**20
+6/15: 2*2221
+6/16: 2**21
+6/17: pwd
+6/18: nano 01.py
+ 7/1: a = 100
+ 7/2: a
+ 7/3: print(a)
+ 7/4: nano 01.py
+   1: if (11 == 11): print("YES")
+   2: if (11 == 12): print("YES")
+   3:
+if (11 == 12):
+    print("Vienadi")
+   4:
+if (11 == 12):
+    print("Vienadi")
+    else print("Nav vienadi")
+   5:
+if (11 == 12):
+    print("Vienadi")
+    elif print("Nav vienadi")
+   6:
+if (11 == 12):
+    print("Vienadi")
+    elif: print("Nevienadi")
+   7:
+if (11 == 12):
+    print("Vienadi")
+    elif:
+   8:
+if (11 == 12):
+    print("Vienadi")
+    elif:
+   9:
+if (11 == 12):
+    print("Vienadi")
+    elif:
+  10:
+if (11 == 12):
+    print("Vienadi")
+    else:
+  11:
+if (11 == 12):
+    print("Vienadi")
+    else:
+    print ("Nevienads")
+  12:
+if (11 == 12):
+    print("Vienadi")
+else:
+    print ("Nevienads")
+  13:
+if (11 == 12):
+    print("Vienadi")
+else:
+    print ("Nevienadi")
+  14: %history -g -f myhistory.dat
+  15: ls
+  16: cat myhistory.dat
+  17:
+if (12 < 11):
+    print("FALSE")
+elif:
+    print ("TRUE")
+  18:
+if (12 < 11):
+    print("FALSE")
+else:
+    print ("TRUE")
+  19:
+if (12 < 11):
+    print("FALSE")
+elif (-3 > 4):
+    print ("TRUE")
+  20:
+if (12 < 11):
+    print("FALSE")
+elif (-3 > 4):
+    print ("TRUE")
+else:
+    print("Final")
+  21:
+if (12 < 11):
+    print("FALSE")
+elif (-3 == 4):
+    print ("TRUE")
+else:
+    print("Final")
+  22:
+if (12 > 11):
+    print("FALSE")
+elif (-3 > 4):
+    print ("TRUE")
+else:
+    print("Final")
+  23:
+if (12 > 11):
+    print("FALSE")
+    c = 33
+    print(2**c)
+elif (-3 > 4):
+    print ("TRUE")
+else:
+    print("Final")
+  24:
+if (a > b):
+    print("FALSE")
+    c = 33
+    print(2**c)
+elif (-3 > 4):
+    print ("TRUE")
+else:
+    print("Final")
+  25: a = 77
+  26:
+if (a > b):
+    print("FALSE")
+    c = 33
+    print(2**c)
+elif (-3 > 4):
+    print ("TRUE")
+else:
+    print("Final")
+  27: b = 99
+  28:
+if (a > b):
+    print("FALSE")
+    c = 33
+    print(2**c)
+elif (-3 > 4):
+    print ("TRUE")
+else:
+    print("Final")
+  29: b = "Hello"
+  30:
+if (a > b):
+    print("FALSE")
+    c = 33
+    print(2**c)
+elif (-3 > 4):
+    print ("TRUE")
+else:
+    print("Final")
+  31: b = "55"
+  32:
+if (a > b):
+    print("FALSE")
+    c = 33
+    print(2**c)
+elif (-3 > 4):
+    print ("TRUE")
+else:
+    print("Final")
+  33:
+if (a >int(b)):
+    print("FALSE")
+    c = 33
+    print(2**c)
+elif (-3 > 4):
+    print ("TRUE")
+else:
+    print("Final")
+  34: type(11)
+  35: type("Hello")
+  36: type("55")
+  37: type(int("55"))
+  38: 11 < 22
+  39: print (11 < 22)
+  40: print (11 == 22)
+  41: 11 <int("11")
+  42: 11 ==int("11")
+  43: type(11)
+  44: type(11) == type(22)
+  45: for i in a: print(a)
+  46: for i in "a": print(a)
+  47: a
+  48: for i in "EDIBO": print(a)
+  49: for i in "EDIBO": print(i)
+  50: for i in "EDIBO": print(-i)
+  51: for i in "EDIBO"[::-1] : print(i)
+  52:
+for k in "EDIBO": 
+    print(k)
+    print(k)
+  53:
+for k in "12345O": 
+    print(k)
+    print(int(k))
+  54:
+for k in "12345O": 
+    print(k)
+    print(int(k)+1)
+  55: for i in range(10)
+  56: for i in range(10)
+  57:
+for i in range(10):
+    print(i)
+  58:
+for i in range(-13, 15, 2):
+    print(i)
+  59:
+for i in range(-13, 15, 5):
+    print(i)
+  60:
+for i in range(-13, 15, 5):
+    print(i) x
+  61:
+for i in xrange(-13, 15, 5):
+    print(i)
+  62: print("N=%d"%(a))
+  63: print("N = %d"; S= %s"%(a))
+  64: print("N = %d; S= %s" % (a,b))
+  65: a
+  66: b
+  67: print("N = %d; S= %s" % (a,b))
+  68: b = "EDIBO"
+  69: print("N = %d; S= %s" % (a,b))
+  70: print("N = %d; S= %s" % (a,b))
+  71: c = "Hello"
+  72: print("N = %d; S= %s" % (a,b,c))
+  73: print("N = %d; S= %s" % (a,c))
+  74: print("N = %d; S= %s" % (a,b))
+  75: c = 33
+  76: print("C = %d; N = %d; S= %s" % (c,a,b))
+  77: b = '56'
+  78: print("C = %d; N = %d; S= %s" % (c,a,b))
+  79: print("C%d%d%s" % (c,a,b))
+  80: print("%d%d%s" % (c,a,b))
+  81: print("+371-%d%d%s" % (c,a,b))
+  82: %history -g -f myhistory01.dat
