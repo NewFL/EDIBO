@@ -1,0 +1,108 @@
+   1: def f(): pass
+   2: f()
+   3: type(f)
+   4: def f(): print ("Hello")
+   5: f()
+   6: def g()
+   7:
+def g():
+    a = 22
+    print(a+3)
+   8: g()
+   9:
+def g(a):
+    print(a+3)
+  10: g(a)
+  11:
+def g(a):
+    print(a+3)
+  12: g(22)
+  13:
+def g(a):
+    c = a+3
+    print(c)
+  14: g(123)
+  15:
+def h(a,b):
+    c= a + b
+    print(c)
+  16: h(1,3)
+  17:
+def h2(a=22,b=33):
+    c= a + b
+    print(c)
+  18: h2()
+  19: h2(3,4)
+  20:
+def f2(a,b):
+    return(a+b)
+  21: f2(3,4)
+  22: print(f2(3,4))
+  23: ls
+  24: cd ..
+  25: cd ..
+  26: ls
+  27: cd EDIBO/
+  28: LS
+  29: ls
+  30: cd Python/
+  31: ls
+  32: echo Hello > aa.dat
+  33: f = open ("aa.dat")
+  34: f.close()
+  35: cat aa.dat
+  36: f = open ("aa.dat")
+  37: f.readlines()
+  38: f.readlines()
+  39: f = open ("aa.dat")
+  40: f.close()
+  41: f = open ("aa.dat")
+  42: s= f.readlines()
+  43: f.close()
+  44: s
+  45: print(s)
+  46: print(s+s)
+  47: type(s)
+  48: s[0]
+  49: f = open ("aa.dat")
+  50: f.tell()
+  51: s= f.readlines()
+  52: f.tell()
+  53: f.seek(0)
+  54: f.readlines()
+  55: f.seek(3)
+  56: f.readlines()
+  57: f.close()
+  58: f = open ("aa.dat","r")
+  59: f.redlines()
+  60: f = open ("aa.dat","w")
+  61: ls -l
+  62: f.write("EDIBO")
+  63: f.close
+  64: ls -lt
+  65: f.close()
+  66: ls -lt
+  67: f = open ("aa.dat","w")
+  68: f.write("EDIBO")
+  69: f.close()
+  70: cat aa.dat
+  71: f.closed
+  72: f = open ("aa.dat","w")
+  73: f.write("EDIBO\n")
+  74: f.close()
+  75: cat aa.dat
+  76: f.closed
+  77: f = open ("aa.dat")
+  78: f.write("\n\n\tEDIBO\n")
+  79: f.write("\n\n EDIBO\n")
+  80: f = open ("aa.dat","w")
+  81: f.write("\n\n EDIBO\n")
+  82: f.close()
+  83: f = open ("aa.dat","a")
+  84: f.write("\n 2020 \n")
+  85: f.close()
+  86: cat aa.dat
+  87: history
+  88: history > history20200813c.txt
+  89: ls
+  90: %history -g -f myhistory.20200813.dat
