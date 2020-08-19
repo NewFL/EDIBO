@@ -18,6 +18,3 @@ while [ $c -gt 0 ]; do
 done
 b=$(echo "${array[*]}" | rev)
 echo "Binary of $n is:" $b
-
-
-
