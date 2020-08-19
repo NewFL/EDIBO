@@ -59,3 +59,20 @@ Unix / Linux - Shell Input/Output Redirections
 Unix / Linux - Shell Functions
 Unix / Linux - Shell Manpage Help
 *
+#!/bin/bash
+
+dec to bin shell
+
+echo " Convert decimal number to binary"
+echo " Type your number " 
+#n is number that will be converted
+read n
+#c represents devided number by 2, loop will work untill
+# it's value is not equal to 0
+#array=()
+c=$n
+while [ $c -gt 0 ]; do
+    d=$(($c%2))
+    echo $d | tail -1
+    c=$(($c/2)) 
+done
