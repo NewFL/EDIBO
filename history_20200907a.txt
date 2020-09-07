@@ -1,0 +1,27 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  git clone https://github.com/NewFL/EDIBO
+    4  cd EDIBO/
+    5  mkdir Angular
+    6  cd Angular/
+    7  export NVM_DIR="$HOME/.nvm" && ( git clone https://github.com/nvm-sh/nvm.git "$NVM_DIR"; cd "$NVM_DIR"; git checkout `git describe --abbrev=0 --tags --match "v[0-9]*" $(git rev-list --tags --max-count=1)`; ) && \. "$NVM_DIR/nvm.sh"
+    8  nvm i 12
+    9  node -v  # Should be like 12.x.x
+   10  npm -v  # Should be like 6.x.x
+   11  export NVM_DIR="$HOME/.nvm"
+   12  [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+   13  npm install -g @angular/cli
+   14  ng new MyApp
+   15  cd MyApp/
+   16  ls -lt
+   17  code .
+   18  cd ..
+   19  nano git-upload 
+   20  cd Angular/
+   21  cd MyApp/
+   22  las
+   23  ls
+   24  ls -lta
+   25  cd ..
+   26  history
+   27  history > history_20200907a.txt
