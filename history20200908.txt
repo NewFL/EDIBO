@@ -1,0 +1,101 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  git clone https://github.com/NewFL/EDIBO
+    4  firefox &
+    5  code .
+    6  ls
+    7  cd EDIBO/
+    8  ls
+    9  cd Dev/
+   10  ls
+   11  cd ..
+   12  ls
+   13  ssh-keygen
+   14  ls
+   15  ls -l
+   16  cat my_super_key.pub 
+   17  ls
+   18  git clone git@gitlab.com:NewFL/my-key-test-project.git
+   19  GIT_SSH_COMMAND='ssh -i ~/home'git clone git@gitlab.com:NewFL/my-key-test-project.git
+   20  GIT_SSH_COMMAND='ssh -i ~/home/my_super_key'git clone git@gitlab.com:NewFL/my-key-test-project.git
+   21  GIT_SSH_COMMAND='ssh -i ~/my_super_key'git clone git@gitlab.com:NewFL/my-key-test-project.git
+   22  GIT_SSH_COMMAND='ssh -i ~/my_super_key' git clone git@gitlab.com:NewFL/my-key-test-project.git
+   23  cd my-key-test-project/
+   24  ls
+   25  ls -la
+   26  ls .git/
+   27  cat .git/config
+   28  git stats
+   29  git status
+   30  git aa
+   31  git add
+   32  git add.
+   33  git status
+   34  git status.
+   35  ls
+   36  git status
+   37  GIT_SSH_COMMAND='ssh -i ~/my_super_key' git push
+   38  git clone git@gitlab.com:NewFL/my-first-react-project.git
+   39  GIT_SSH_COMMAND='ssh -i ~/my_super_key' git clone git@gitlab.com:NewFL/my-first-react-project.git
+   40  cd
+   41  ls
+   42  pwd
+   43  cd my-key-test-project/
+   44  pwd
+   45  git status
+   46  ls
+   47  cd my-first-react-project/
+   48  pwd
+   49  sl
+   50  ls
+   51  git status
+   52  git add
+   53  git add.
+   54  add
+   55  cd ..
+   56  git status
+   57  git add
+   58  git add *
+   59  git status
+   60  cd ..
+   61  ls
+   62  pwd
+   63  git add *
+   64  git status
+   65  cd my-key-test-project/
+   66  git commit -m "Readme file added"
+   67  git push
+   68  pwd
+   69  ls
+   70  cd my-first-react-project/
+   71  git status
+   72  git add *
+   73  git status
+   74  ls -a
+   75  cd ..
+   76  pwd
+   77  cd ..
+   78  pwd
+   79  git clone git@gitlab.com:NewFL/my-first-react-project.git
+   80  GIT_SSH_COMMAND='ssh -i ~/my_super_key' git clone git@gitlab.com:NewFL/my-first-react-project.git
+   81  cd my-first-react-project/
+   82  ls -a
+   83  git status
+   84  git add *
+   85  git status
+   86  git commit
+   87  git commit -m "code sandbox project added"
+   88  git config --global fjodor.la@gmail.com "code sandbox project added"
+   89  git commit
+   90* 
+   91  git commit
+   92  git config --global fjodor.la@gmail.com "code sandbox project added"
+   93  git commit -m "code sandbox project added"
+   94  git config --global fjodor.la@gmail.com "code sandbox project added"
+   95  git config --global user.name "NewFL"
+   96  git config --global user.email "fjodor.la@gmail.com"
+   97* 
+   98  GIT_SSH_COMMAND='ssh -i ~/my_super_key' git push
+   99  history
+  100  history > /home/user/EDIBO/ history20200908.txt
+  101  history > history20200908.txt
