@@ -1,0 +1,40 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  firefox &
+    4  pwd
+    5  nano fibonacci_sequence.py
+    6  python
+    7  code .
+    8  chmod 744 fibonacci_sequence.py 
+    9  ./fibonacci_sequence.py 
+   10  git clone https://github.com/NewFL/EDIBO
+   11  export NVM_DIR="$HOME/.nvm" && ( git clone https://github.com/nvm-sh/nvm.git "$NVM_DIR"; cd "$NVM_DIR"; git checkout `git describe --abbrev=0 --tags --match "v[0-9]*" $(git rev-list --tags --max-count=1)`; ) && \. "$NVM_DIR/nvm.sh"
+   12  nvm i 12
+   13  node -v  # Should be like 12.x.x
+   14  npm -v  # Should be like 6.x.x
+   15  export NVM_DIR="$HOME/.nvm"
+   16  [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+   17  npm install -g @angular/cli
+   18  pwd
+   19  cd EDIBO/
+   20  ls
+   21  cd Angular/
+   22  ls
+   23  code .
+   24  ls -lt
+   25  cd MyApp/
+   26  LS -LT
+   27  ls -lt
+   28  cd ..
+   29  mv MyApp MyAppLegacy
+   30  ls
+   31  ng new MyApp
+   32  ls
+   33  cd MyApp
+   34  ng add @angular/material
+   35  ls -lt
+   36  cp -r ../MyAppLegacy/* ./
+   37  code .
+   38  ls -lta
+   39  cd ..
+   40  history > history_20200909a.txt

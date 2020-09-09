@@ -9,19 +9,13 @@ import {MatDividerModule} from '@angular/material/divider';
 import {MatSliderModule} from '@angular/material/slider';
 import {MatIconModule} from '@angular/material/icon';
 import {MatListModule} from '@angular/material/list';
-import {MatButtonModule} from '@angular/material/button';
-import {MatTabsModule} from '@angular/material/tabs';
-import {MatTableModule} from '@angular/material/table';
 
 import { ButtonOverviewExample} from './button/button-overview-example';
-import { TableBasicExample} from './table/table-basic-example';
-
 
 @NgModule({
   declarations: [
     AppComponent,
-    ButtonOverviewExample,
-    TableBasicExample
+    ButtonOverviewExample
   ],
   imports: [
     BrowserModule,
@@ -30,10 +24,7 @@ import { TableBasicExample} from './table/table-basic-example';
     MatDividerModule,
     MatSliderModule,
     MatIconModule,
-    MatListModule,
-    MatButtonModule,
-    MatTabsModule,
-    MatTableModule
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent, ButtonOverviewExample]
