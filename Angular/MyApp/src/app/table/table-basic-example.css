@@ -1,4 +1,6 @@
 table {
     width: 100%;
   }
-  
+  ::ng-deep .colorRed{
+    color:red
+}

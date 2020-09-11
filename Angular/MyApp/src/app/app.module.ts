@@ -12,16 +12,21 @@ import {MatListModule} from '@angular/material/list';
 import {MatButtonModule} from '@angular/material/button';
 import {MatTabsModule} from '@angular/material/tabs';
 import {MatTableModule} from '@angular/material/table';
+import {MatPaginatorModule} from '@angular/material/paginator';
 
 import { ButtonOverviewExample} from './button/button-overview-example';
 import { TableBasicExample} from './table/table-basic-example';
 
+import {TablePaginationExample} from './TableRND/table-pagination-example';
+
+import { SomeService } from './TableRND/some.service';
 
 @NgModule({
   declarations: [
     AppComponent,
     ButtonOverviewExample,
-    TableBasicExample
+    TableBasicExample,
+    TablePaginationExample
   ],
   imports: [
     BrowserModule,
@@ -33,9 +38,10 @@ import { TableBasicExample} from './table/table-basic-example';
     MatListModule,
     MatButtonModule,
     MatTabsModule,
-    MatTableModule
+    MatTableModule,
+    MatPaginatorModule
   ],
-  providers: [],
-  bootstrap: [AppComponent, ButtonOverviewExample]
+  providers: [SomeService],
+  bootstrap: [AppComponent]
 })
 export class AppModule { }
